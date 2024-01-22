@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .relogio {
+    font-size: 3em;
+    font-family: 'Roboto Mono', monospace;
+
+  }
+  main {
+    display: flex;
+    background-color: rgba(103, 104, 104, 0.053);
+    border-radius: 10px;
+    width: 100%;
+    height: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .fc.fc-media-screen.fc-direction-ltr.fc-theme-standard {
+    font-family: 'Roboto Mono', monospace;
+}
+.fc-daygrid-day-events {
+    display: none;
+}
+.fc-today-button.fc-button.fc-button-primary {
+    display: none;
+}
+:root {
+    --fc-today-bg-color: rgba(237, 148, 195, 0.597);
+    --fc-border-color: none;
+    --fc-button-bg-color: rgba(237, 148, 195, 0.778);
+    --fc-button-border-color: rgba(237, 148, 195, 0.778);
+    --fc-button-active-border-color: rgba(237, 148, 195, 0.866);
+    --fc-button-hover-bg-color: rgba(237, 148, 195, 0.866);
+    --fc-button-hover-border-color: rgba(237, 148, 195, 0.866);
+    --fc-button-active-bg-color: rgba(237, 148, 195, 0.866);
+}
+.fc .fc-daygrid-day-number {
+    color: rgb(110, 111, 111);
+}
+.fc-day.fc-day-sun.fc-day-today.fc-daygrid-day{
+    border-radius: 5px;
+}
+.fc-col-header-cell-cushion {
+    color: rgba(237, 148, 195, 0.778);
+}
